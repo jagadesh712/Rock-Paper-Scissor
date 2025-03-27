@@ -2,19 +2,40 @@
     margin:0;
     padding:0;
     text-align: center;
+    
    
+}
+body{
+    background-color:#A2E3C4;
+    color:#3C493F;
 }
  .tbbox{
     display: flex;
     justify-content: center;
 } 
+table,th,td{
+    background-color: #F0F7F4;
+    border-collapse: collapse;
+    border:2px solid #7E8D85;
+    width:50vh;     
+}
 table{
-    border:solid 2px red;
+    margin-top: 15px;
 }
-th{
+
+button{
+    background-color:#FAD8D6 ;
+    border-radius: 5px;
     
-    border:solid 2px red;
+    padding:7px;
+    margin:25px;
 }
+button:hover{
+    transform: scale(1.1);
+}
+
 td{
-    border:solid 2px red;
+    padding:5px;
+    height:3vh;
+  
 }
